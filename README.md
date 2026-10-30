@@ -2,7 +2,7 @@
 
 A mixed-integer linear program (MILP) that schedules hourly charging and discharging of a home EV battery alongside rooftop solar, and asks: **what happens to savings and battery wear when the optimizer is told that cycling the battery has a cost?**
 
-Built with Pyomo + Gurobi for the Purdue Vertically Integrated Projects (VIP) ABC-PV team, mentored by Dr. Peter Bermel. Full write-up: [`docs/writeup.pdf`](docs/writeup.pdf).
+Built with Pyomo + Gurobi for the Purdue University Vertically Integrated Projects (VIP) ABC-PV team from January to May 2026, mentored by Dr. Peter Bermel. Full write-up: [`docs/writeup.pdf`](docs/writeup.pdf).
 
 ## Key findings
 
@@ -24,15 +24,15 @@ The takeaway: degradation-aware V2B needs a cycle-depth-aware (nonlinear) penalt
                     [ Grid, SCE TOU-D-4-9PM ]
 ```
 
-| Parameter | Value |
-|---|---|
-| EV battery | 60 kWh, SOC bounds 20–90% |
-| Charger | 9.6 kW bidirectional, 90% round-trip efficiency |
-| Schedule | Leaves 8 AM (≥ 50% SOC), returns 6 PM, uses 10 kWh driving |
-| Rates | SCE TOU-D-4-9PM; summer peak $0.58/kWh, winter peak $0.51/kWh |
-| Export credit | Flat $0.05/kWh (NEM 3.0 approximation) |
-| Days modeled | July 15 (summer), January 15 (winter), 1-hour steps |
-| Location | Pasadena, CA |
+| Parameter     | Value                                                         |
+| ------------- | ------------------------------------------------------------- |
+| EV battery    | 60 kWh, SOC bounds 20–90%                                     |
+| Charger       | 9.6 kW bidirectional, 90% round-trip efficiency               |
+| Schedule      | Leaves 8 AM (≥ 50% SOC), returns 6 PM, uses 10 kWh driving    |
+| Rates         | SCE TOU-D-4-9PM; summer peak $0.58/kWh, winter peak $0.51/kWh |
+| Export credit | Flat $0.05/kWh (NEM 3.0 approximation)                        |
+| Days modeled  | July 15 (summer), January 15 (winter), 1-hour steps           |
+| Location      | Pasadena, CA                                                  |
 
 ## Model
 
@@ -52,21 +52,21 @@ subject to, for each hour $t$:
 
 Three modes are compared:
 
-| Mode | Description | Penalty |
-|---|---|---|
-| A | Smart charging only, no discharge to the home (baseline) | — |
-| B | Unconstrained V2B | `w = 0` |
-| C | Degradation-aware V2B, swept over 17 values | `w = 0.02 … 0.30` |
+| Mode | Description                                              | Penalty           |
+| ---- | -------------------------------------------------------- | ----------------- |
+| A    | Smart charging only, no discharge to the home (baseline) | —                 |
+| B    | Unconstrained V2B                                        | `w = 0`           |
+| C    | Degradation-aware V2B, swept over 17 values              | `w = 0.02 … 0.30` |
 
 After solving, each SOC profile goes through [rainflow cycle counting](https://en.wikipedia.org/wiki/Rainflow-counting_algorithm), and a degradation index $\sum_i n_i \cdot DoD_i^2$ is computed so deeper cycles count more than shallow ones.
 
 ## Results
 
-| Metric | Summer A | Summer B/C (w ≤ 0.095) | Winter A | Winter B/C (w ≤ 0.04) |
-|---|---|---|---|---|
-| Daily cost | $12.90 | $11.37 | $10.01 | $9.68 |
-| V2B discharged | 0.00 kWh | 7.58 kWh | 0.00 kWh | 3.26 kWh |
-| Rainflow degradation index | 0.0275 | 0.0674 | 0.0278 | 0.0502 |
+| Metric                     | Summer A | Summer B/C (w ≤ 0.095) | Winter A | Winter B/C (w ≤ 0.04) |
+| -------------------------- | -------- | ---------------------- | -------- | --------------------- |
+| Daily cost                 | $12.90   | $11.37                 | $10.01   | $9.68                 |
+| V2B discharged             | 0.00 kWh | 7.58 kWh               | 0.00 kWh | 3.26 kWh              |
+| Rainflow degradation index | 0.0275   | 0.0674                 | 0.0278   | 0.0502                |
 
 Full output: [`results_summary.csv`](Results/run_20260403_132305/results_summary.csv), [`results.txt`](Results/run_20260403_132305/results.txt).
 
@@ -110,11 +110,11 @@ No Gurobi license setup is needed. The `gurobipy` pip package includes a size-li
 
 ## References
 
-1. J. Gong et al., "Quantifying the impact of V2X operation on electric vehicle battery degradation: An experimental evaluation," *eTransportation*, vol. 20, 2024. [doi:10.1016/j.etran.2024.100316](https://doi.org/10.1016/j.etran.2024.100316)
+1. J. Gong et al., "Quantifying the impact of V2X operation on electric vehicle battery degradation: An experimental evaluation," _eTransportation_, vol. 20, 2024. [doi:10.1016/j.etran.2024.100316](https://doi.org/10.1016/j.etran.2024.100316)
 2. T. Fonseca et al., "EVLearn: Extending the CityLearn Framework with Electric Vehicle Simulation," 2024. [arXiv:2404.06521](https://arxiv.org/abs/2404.06521)
-3. A. O. Ibrahim et al., "A scenario based analysis of bidirectional electric vehicle-building integration for energy optimization and carbon emission reduction," *Scientific Reports*, vol. 15, 2025. [doi:10.1038/s41598-025-31812-6](https://doi.org/10.1038/s41598-025-31812-6)
+3. A. O. Ibrahim et al., "A scenario based analysis of bidirectional electric vehicle-building integration for energy optimization and carbon emission reduction," _Scientific Reports_, vol. 15, 2025. [doi:10.1038/s41598-025-31812-6](https://doi.org/10.1038/s41598-025-31812-6)
 4. T. Fonseca et al., "EnergAIze: Multi Agent Deep Deterministic Policy Gradient for Vehicle to Grid Energy Management," 2024. [arXiv:2404.02361](https://arxiv.org/abs/2404.02361)
-5. D. Fioriti et al., "Battery lifetime of electric vehicles by novel rainflow-counting algorithm with temperature and C-rate dynamics," *Journal of Energy Storage*, vol. 59, 2023. [doi:10.1016/j.est.2022.106458](https://doi.org/10.1016/j.est.2022.106458)
+5. D. Fioriti et al., "Battery lifetime of electric vehicles by novel rainflow-counting algorithm with temperature and C-rate dynamics," _Journal of Energy Storage_, vol. 59, 2023. [doi:10.1016/j.est.2022.106458](https://doi.org/10.1016/j.est.2022.106458)
 6. Y. Shi et al., "A Convex Cycle-based Degradation Model for Battery Energy Storage Planning and Operation," 2017. [arXiv:1703.07968](https://arxiv.org/abs/1703.07968)
 
 ## License
