@@ -1,0 +1,6 @@
+gurobipy==13.0.1
+matplotlib==3.10.8
+numpy==2.4.2
+pandas==3.0.1
+pyomo==6.10.0
+rainflow==3.2.0

@@ -1,0 +1,604 @@
+=======================================================
+  V2B Results -- Summer -- ModeA_smart_charge
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.027494
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeB_w0
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.020
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $11.90  [w=0.02]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.040
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $12.43  [w=0.04]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.050
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $12.70  [w=0.05]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.089861
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.060
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $12.96  [w=0.06]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.089861
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.070
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $13.23  [w=0.07]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.080
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $13.49  [w=0.08]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.085
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $13.63  [w=0.085]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.090
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $13.76  [w=0.09]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.095
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $11.37
+  Objective (incl. penalty): $13.89  [w=0.095]
+  Grid import:             34.88 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          7.58 kWh
+  EV charging:             18.96 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.067399
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.100
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $13.96  [w=0.1]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.120
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $14.17  [w=0.12]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.025520
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.140
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $14.38  [w=0.14]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.025520
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.160
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $14.59  [w=0.16]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.180
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $14.80  [w=0.18]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.025520
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.200
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $15.01  [w=0.2]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.250
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $15.54  [w=0.25]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.025520
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Summer -- ModeC_w0.300
+=======================================================
+  PV total:                33.46 kWh
+  Load total:              38.64 kWh
+  Peak TOU:                $0.58000/kWh
+  Daily electricity cost:  $12.90
+  Objective (incl. penalty): $16.07  [w=0.3]
+  Grid import:             34.04 kWh
+  Grid export:             18.32 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     45.3%
+  Rainflow degradation:    0.025520
+  Equivalent cycles:       1.50
+
+=======================================================
+  V2B Results -- Winter -- ModeA_smart_charge
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeB_w0
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $9.68
+  Grid import:             27.16 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          3.26 kWh
+  EV charging:             14.16 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.050151
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.020
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $9.68
+  Objective (incl. penalty): $10.03  [w=0.02]
+  Grid import:             27.16 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          3.26 kWh
+  EV charging:             14.16 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.050151
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.040
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $9.68
+  Objective (incl. penalty): $10.38  [w=0.04]
+  Grid import:             27.16 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          3.26 kWh
+  EV charging:             14.16 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.050151
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.050
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $10.53  [w=0.05]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.060
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $10.64  [w=0.06]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.070
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $10.74  [w=0.07]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.080
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $10.85  [w=0.08]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.085
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $10.90  [w=0.085]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.090
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $10.95  [w=0.09]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.095
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $11.01  [w=0.095]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.100
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $11.06  [w=0.1]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.120
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $11.27  [w=0.12]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.140
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $11.48  [w=0.14]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.160
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $11.69  [w=0.16]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.180
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $11.90  [w=0.18]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.200
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $12.11  [w=0.2]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.250
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $12.64  [w=0.25]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+
+=======================================================
+  V2B Results -- Winter -- ModeC_w0.300
+=======================================================
+  PV total:                20.38 kWh
+  Load total:              24.42 kWh
+  Peak TOU:                $0.51000/kWh
+  Daily electricity cost:  $10.01
+  Objective (incl. penalty): $13.17  [w=0.3]
+  Grid import:             26.80 kWh
+  Grid export:             12.22 kWh
+  V2B discharged:          0.00 kWh
+  EV charging:             10.54 kWh
+  PV self-consumption:     40.0%
+  Rainflow degradation:    0.027778
+  Equivalent cycles:       1.00
+

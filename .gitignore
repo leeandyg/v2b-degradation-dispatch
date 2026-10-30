@@ -1,0 +1,23 @@
+# Environment
+venv/
+__pycache__/
+.DS_Store
+gurobi.lic
+
+# New runs (the reference run used in the write-up is kept)
+Results/*
+!Results/run_20260403_132305/
+
+# Raw / unused data (trimmed load file is committed instead)
+Data/up00-ca-single-family_detached.csv
+Data/archived/
+Data/PGE-EEC-Price-Sheets/
+Data/PGE_TOU.rtf
+
+# Personal working files
+Citations/
+Presentation/
+Old/
+V2B_Project_Plan_Revised.md
+V2B_Project_Plan_Revised.md.pdf
+Updates-tou-degradesweep.pdf
