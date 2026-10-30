@@ -2,7 +2,7 @@
 
 A mixed-integer linear program (MILP) that schedules hourly charging and discharging of a home EV battery alongside rooftop solar, and asks: **what happens to savings and battery wear when the optimizer is told that cycling the battery has a cost?**
 
-Built with Pyomo + Gurobi for the Purdue University Vertically Integrated Projects (VIP) ABC-PV team from January to May 2026, mentored by Dr. Peter Bermel. Full write-up: [`docs/writeup.pdf`](docs/writeup.pdf). Presented at Purdue Undergraduate Research Conference 2026.
+Built with Pyomo + Gurobi for the Purdue University Vertically Integrated Projects (VIP) ABC-PV team from January to May 2026, mentored by Dr. Peter Bermel. Full write-up: [`docs/writeup.pdf`](docs/writeup.pdf). Presented at Purdue Undergraduate Research Conference (Spring 2026).
 
 ## Key findings
 
